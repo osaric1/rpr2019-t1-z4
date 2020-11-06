@@ -3,9 +3,13 @@ package ba.unsa.etf.rpr;
 public class Korpa {
     private Artikl[] artikli;
     private int brojArtikala;
+
     public Korpa() {
         artikli = new Artikl[50];
         brojArtikala = 0;
+    }
+    public int getBrojArtikala() {
+        return brojArtikala;
     }
     public Artikl[] getArtikli() {
         return artikli;
@@ -38,5 +42,4 @@ public class Korpa {
         }
         return false;
     }
-
 }
